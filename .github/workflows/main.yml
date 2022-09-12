@@ -16,5 +16,5 @@ jobs:
           envId: ${{ secrets.ENV_ID }}
           staticSrcPath: ./
           staticDestPath: ./public
-          staticIgnore: .git,.github,node_modules
+          staticIgnore: .github
 
